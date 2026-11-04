@@ -66,3 +66,19 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# DAVID: executables, models, runtimes and temp files
+*.exe
+*.dll
+*.gguf
+*.onnx
+*.onnx.json
+*.bin
+*.wav
+heard.txt
+reply.txt
+models/
+voices/
+whisper/
+piper/
+third_party/
